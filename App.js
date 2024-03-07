@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { Home, Settings } from './src/componentes';
+
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>E não é que foi </Text>
+
+      
       <StatusBar style="auto" />
     </View>
   );
