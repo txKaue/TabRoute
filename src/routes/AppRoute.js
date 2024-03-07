@@ -8,15 +8,17 @@ const AppRoute = () => {
     return (
         <NavigationContainer>
             <TabNavigator>
-                <Tab.Screen>
+                <Tab.Screen
                     name="Home"
                     component={Home}
-                </Tab.Screen>
-                <Tab.Screen>
+                />
+                <Tab.Screen
                     name="Settings"
                     component={Settings}
-                </Tab.Screen>
+                />
+                
             </TabNavigator>
         </NavigationContainer>
     );
 }
+
